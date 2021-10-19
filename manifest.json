@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Github Project Column Total",
+  "version": "1.0",
+  "description": "See the total of an integer column in github projects beta",
+  "permissions": [
+    "*://github.com/*/*"
+  ],
+  "background": {
+      "scripts": ["js/background.js"],
+      "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Calculate Total!"
+  },
+  "icons": {
+      "16": "images/icon.png",
+      "32": "images/icon.png",
+      "48": "images/icon.png",
+      "128":"images/icon.png"
+  }
+}
