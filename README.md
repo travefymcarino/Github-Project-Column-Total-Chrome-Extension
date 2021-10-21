@@ -1,3 +1,5 @@
+A very simple chrome extension that sums up float values in a column labeled "Estimate (hours)" in GitHub's new project beta UI. It alerts the total to the user via javascript.
+
 ## Caveat
 
 Only works with issues that are visible on the page. Pages outside of the current scroll window are not counted as they are removed from the DOM.
