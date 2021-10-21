@@ -1,3 +1,7 @@
+## Caveat
+
+Only works with issues that are visible on the page. Pages outside of the current scroll window are not counted as they are removed from the DOM.
+
 ## Testing it out
 
 It’s really easy to test a new extension in Chrome. Type “chrome://extensions” in a tab to bring up the extensions page.
