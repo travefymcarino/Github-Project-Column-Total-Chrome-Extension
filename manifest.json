@@ -3,11 +3,14 @@
   "name": "Github Project Column Total",
   "version": "1.0",
   "description": "See the total of an integer column in github projects beta",
+  "permission": [
+    "scripting"
+  ],
   "host_permissions": [
     "*://github.com/*/*"
   ],
   "background": {
-      "service_worker": "js/background.js",
+      "service_worker": "js/background.js"
   },
   "action": {
     "default_title": "Calculate Total!"
