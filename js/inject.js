@@ -4,7 +4,8 @@
   var columnheaders = document.querySelectorAll('[role=columnheader]');
   for (let i = 0; i < columnheaders.length; i++) {
     if (columnheaders[i].firstElementChild.firstChild.innerText == 'Story Points') {
-      desiredIndex = i;
+      desiredIndex = i + 1; // first column in the data is the numbered column which we'll want to skip
+      break;
     }
   }
 
