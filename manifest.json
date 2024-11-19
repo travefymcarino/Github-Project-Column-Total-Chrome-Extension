@@ -3,8 +3,9 @@
   "name": "Github Project Column Total",
   "version": "1.0",
   "description": "See the total of an integer column in github projects beta",
-  "permission": [
-    "scripting"
+  "permissions": [
+    "scripting",
+    "activeTab"
   ],
   "host_permissions": [
     "*://github.com/*/*"
