@@ -7,10 +7,9 @@
     "*://github.com/*/*"
   ],
   "background": {
-      "scripts": ["js/background.js"],
-      "persistent": true
+      "service_worker": "js/background.js",
   },
-  "browser_action": {
+  "action": {
     "default_title": "Calculate Total!"
   },
   "icons": {
